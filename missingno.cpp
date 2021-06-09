@@ -2,13 +2,14 @@
 using namespace std;
  
 int main(){
-    int n,a[50],c=0;
+    int c=0;
+    long long int n,a[500000];
     cin >> n;
     for(int i=0; i<n-1; i++){
         cin >> a[c];
         c++;
     }
-    int nsum = (n * (n+1))/2;
+    long long int nsum = (n * (n+1))/2;
     for(int i=0; i<n-1; i++){
         nsum -= a[i] ;
     }
