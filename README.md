@@ -1,2 +1,2 @@
 # DSA-practice
-Problems: bit.ly/practice-problems
+Problems: https://bit.ly/practice-problems
